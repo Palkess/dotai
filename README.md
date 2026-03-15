@@ -12,6 +12,9 @@ practices I keep coming back to.
   - `init-agent-docs.md` — Generates an AGENTS.md/CLAUDE.md documentation structure
     for a project, including modular reference files for conventions, architecture,
     decisions, and more
+  - `a11y-audit.md` — Runs a WCAG 2.2 AA accessibility audit against a locally hosted
+    website using axe-cli, pa11y, or Lighthouse; reports violations grouped by WCAG
+    criterion with remediation advice and a prioritized fix list
 - **strategies/** — Focused write-ups on getting the most out of LLMs
   - _(more to come)_
 
