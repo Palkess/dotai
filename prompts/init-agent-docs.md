@@ -86,7 +86,9 @@ loading, and keeps the purpose of each file explicit for human maintainers.
 
 - Only document conventions not already enforced by linters or formatters
 - Where tooling handles a concern, reference the config file instead:
-  "Formatting is fully handled by Prettier — see .prettierrc"
+  "Formatting is fully handled by Prettier — see .prettierrc".
+  Do not even mention what general settings are inside the config files, as
+  this risks making the document stale if the config is updated but conventions.md is not.
 - Include an "## Anti-patterns" section listing approaches the team has
   explicitly tried and rejected, with a brief reason for each:
   "We tried X — it caused Y — do not reintroduce it"
