@@ -8,7 +8,7 @@ practices I keep coming back to.
 
 ## Contents
 
-- **prompts/** — Reusable prompts for specific tasks
+- **.claude/commands/** — Custom slash commands; mirrors `~/.claude/commands/` for easy symlinking or copying
   - `init-agent-docs.md` — Generates an AGENTS.md/CLAUDE.md documentation structure
     for a project, including modular reference files for conventions, architecture,
     decisions, and more
