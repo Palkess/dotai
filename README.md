@@ -15,6 +15,11 @@ practices I keep coming back to.
   - `a11y-audit.md` — Runs a WCAG 2.2 AA accessibility audit against a locally hosted
     website using axe-cli, pa11y, or Lighthouse; reports violations grouped by WCAG
     criterion with remediation advice and a prioritized fix list
+- **.claude/skills/** — Reusable skill definitions (Claude Code skills); mirrors `~/.claude/skills/`
+  - `grill-me` — Interviews you relentlessly about a plan or design, resolving each branch of
+    the decision tree one question at a time, until reaching shared understanding
+  - `doc-changes` — Updates README(s) and agent docs after a task by diffing tracked changes
+    and untracked files, selecting the nearest relevant docs, and writing surgical updates
 - **strategies/** — Focused write-ups on getting the most out of LLMs
   - _(more to come)_
 
