@@ -1,4 +1,7 @@
-Run a WCAG 2.2 AA accessibility audit against a locally hosted website.
+---
+name: a11y-audit
+description: Run a WCAG 2.2 AA accessibility audit against a locally hosted website.
+---
 
 ## Usage
 `/a11y-audit [url]`
