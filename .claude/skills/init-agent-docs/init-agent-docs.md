@@ -1,4 +1,7 @@
-Analyze this project and generate an AGENTS.md-based documentation structure.
+---
+name: init-agent-docs
+description: Analyze this project and generate an AGENTS.md-based documentation structure.
+---
 
 ## Task
 
