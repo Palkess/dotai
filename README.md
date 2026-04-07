@@ -8,14 +8,13 @@ practices I keep coming back to.
 
 ## Contents
 
-- **.claude/commands/** — Custom slash commands; mirrors `~/.claude/commands/` for easy symlinking or copying
-  - `init-agent-docs.md` — Generates an AGENTS.md/CLAUDE.md documentation structure
+- **.claude/skills/** — Reusable skill definitions (Claude Code skills); mirrors `~/.claude/skills/`
+  - `init-agent-docs` — Generates an AGENTS.md/CLAUDE.md documentation structure
     for a project, including modular reference files for conventions, architecture,
     decisions, and more
-  - `a11y-audit.md` — Runs a WCAG 2.2 AA accessibility audit against a locally hosted
+  - `a11y-audit` — Runs a WCAG 2.2 AA accessibility audit against a locally hosted
     website using axe-cli, pa11y, or Lighthouse; reports violations grouped by WCAG
     criterion with remediation advice and a prioritized fix list
-- **.claude/skills/** — Reusable skill definitions (Claude Code skills); mirrors `~/.claude/skills/`
   - `grill-me` — Interviews you relentlessly about a plan or design, resolving each branch of
     the decision tree one question at a time, until reaching shared understanding
   - `doc-changes` — Updates README(s) and agent docs after a task by diffing tracked changes
