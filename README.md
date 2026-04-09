@@ -47,3 +47,4 @@ practices I keep coming back to.
 - [AGENTS.md standard](https://agents.md) — the open standard these prompts are
   built around
 - [Claude Code docs](https://docs.claude.ai) — official Claude Code documentation
+- 🎞️ ["5 Claude Code skills I use every single day"](https://www.youtube.com/watch?v=EJyuu6zlQCg) - A video by Matt Pocock about his workflow with agentic coding using skills to force highly accurate output.
